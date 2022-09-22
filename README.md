@@ -5,9 +5,31 @@
 #
 
 ![](https://pandorafms.com/blog/wp-content/uploads/2018/05/que-es-un-algoritmo-featured.png)
+# 
+## Indices
+##### [Introducción](#Introduccion)
+#### [1 - ¿Un computador más rápido o un algoritmo más eficiente?](#1)
+#### [2- Elementos que influyen en el desempeño de un algoritmo](#2)
+#### [2.1 Tiempo de ejecución](#3)
+#### [2.2 Número de líneas del código](#4)
+
+#### [3 - Pseudocódigo](#30)
+#### [3.1 -Definición de datos en pseudocódigo](#31)
+#### [3.2 Estructuras de control](#32)
+#### [3.3 Estructuras secuenciales](#3.4)
+#### [3.5 Estructuras selectivas](#3.5)
+#### [3.6 Selectiva doble (alternativa)](#3.6)
+#### [3.7 Selectiva múltiple-Casos](#3.7)
+#### [3.8 Estructuras iterativas](#3.8)
+##### [3.8.1 Bucle mientras](#3.8.1)
+##### [3.8.2 Bucle repetir](#3.8.2)
+##### [3.8.3 Bucle para](#3.8.3)
+##### [3.8.4 Bucle para cada](#3.8.4)
+#### [4 Funciones y procedimientos](#4.0)
+
 
 #
-## Introducción
+## Introducción<a name="Introduccion"></a>
 
 #### El análisis de algoritmos puede entenderse como la estimación del consumo de recursos que un algoritmo requiere, para lo cual se utilizan herramientasanalíticas, de tal manera que sea posible establecer el rendimiento del programa que lo utiliza, o va a utilizar, y comparar los costos relativos de dos o más algoritmos para resolver un mismo problema.
 #### El análisis de algoritmos también proporciona una herramienta a los diseñadoresde algoritmos para estimar si una solución propuesta satisface las restricciones de recursos de un problema sin necesidad de implementarla. Este análisis se basa en las estructuras de sus instrucciones y en la cantidad de memoria requeridapara resolver el problema.
@@ -43,32 +65,34 @@
 ####  Un principio importante en el diseño de algoritmos es a menudo conocido como principio del balanceo de espacio/tiempo. Este principio plantea que se puede lograr una reducción en tiempo, si se sacrifica en espacio y viceversa. 
 #
 
-# 1 - ¿Un computador más rápido o un algoritmo más eficiente?
+# 1 - ¿Un computador más rápido o un algoritmo más eficiente?<a name="1"></a>
 
 #### Casi siempre se escucha en las empresas o en los departamentos de informática sobre la necesidad de un computador más rápido, ya que el que se tiene es muy lento. ¿Es eso cierto?
 #### Los computadores no se vuelven más lentos (a menos que tengan algún tipo de virus o falla). El problema radica en que las necesidades de información de los usuarios aumentan, así como el tamaño y complejidad de los programas que se utilizan. Debido a esto, el tiempo de respuesta del computador puede aumentar,dando la sensación de que es más lento.
 #### Esta problemática se presenta frecuentemente cuando los usuarios comunes de sistemas computacionales tipo PC van actualizando sus versiones de sistema operativo o software de ofimática. Por ejemplo, supongamos que un usuario adquiere un computador personal con ciertas especificaciones técnicas de procesamiento, cantidad de memoria, sistema operacional y software de ofimática y realiza en este todas sus operaciones cotidianas, con un desempeño y un tiempo de respuesta adecuados.
 #### Si se actualiza el software con versiones más modernas de sistema operativo y software de ofimática, ¿qué pasa con el rendimiento del computador? Con toda seguridad, la velocidad de respuesta disminuirá considerablemente, lo cual no indica que el computador sea más lento, sino que los nuevos programas requieren más instrucciones y operaciones para funcionar (más ayudas, mejor presentación, mejor interfaz, etc.).
 #### Si no se quiere cambiar los equipos de hardware, y se espera obtener una mejor respuesta en los sistemas de cómputo, es imperativo conseguir programas más eficientes basados en algoritmos mejor diseñados que se desempeñen más rápidamente, consumiendo menos recursos computacionales.
-## 2- Elementos que influyen en el desempeño de un algoritmo
+#
+## 2- Elementos que influyen en el desempeño de un algoritmo<a name="2"></a>
 #### Son muchos los elementos que pueden influir en la evaluación y el funcionamiento de un algoritmo, entre los cuales es importante analizar: tiempo de ejecución, número de líneas de código, estructura del algoritmo, implementación.
 
 # 
 
-## 2.1 Tiempo de ejecución
+## 2.1 Tiempo de ejecución<a name=3></a>
 #### Muchas veces se piensa que el mejor programa es el que menos tiempo de ejecución requiere, lo cual puede ser cierto, pero se deben tener en cuenta otros parámetros importantes.
 #### **¿Cómo se debe o puede medir el tiempo de ejecución del programa?**
 #### Si se mide con un cronómetro, por más exacto que este sea, hay muchos factores que influyen en este resultado. Por ejemplo, la mayoría de los sistemas operativos que se utilizan hoy día son multiusuario o multitarea, razón por la cual no habrá un único programa ejecutándose en un momento determinado. 
 #### Dadas las características del computador, su procesador o procesadores estarán operando en modo compartido, lo que implicará que el tiempo medido no sea solo de un programa, sino de varios programas y procesos que se están ejecutando en ese momento.
 #### La cantidad de tiempo que un programa utilizó de la CPU (medido, por ejemplo, con el comando time en Unix), puede ser un dato más útil siempre y cuando las mediciones se hagan sobre la misma máquina y en las mismas condiciones de carga, ya que las características del computador en cuanto a su procesador (tamaño de la palabra, arquitectura, velocidad de reloj, cantidad de memoria, memoria caché, velocidad de acceso a los discos) hacen que un programa presente resultados en cuanto a tiempo muy diferentes entre una máquina y otra.
 #### ***Ejemplo***: si se tiene un programa que es interactivo, al tiempo de ejecución se le sumará lo que el usuario tarde en introducir los datos o comandos, lo que reflejará un monto de tiempo errado, mucho mayor de lo real. 
-## 2.2 Número de líneas del código
+#
+## 2.2 Número de líneas del código<a name="4"></a>
 #### Algunas veces se cree que el número de líneas que tiene un programa influye en su eficiencia o velocidad de ejecución, pero este factor no puede tenerse en cuenta, ya que —debido a la presencia de instrucciones repetitivas, ciclos o llamados recursivos—, unas pocas líneas de código se pueden ejecutar muchas veces, mientras que un programa con muchas líneas de código y sin instrucciones repetitivas se puede ejecutar en mucho menos tiempo.
 #### ***Ejemplo***: escribir los elementos de una matriz M de 3x3
 
 # 
 
-## Pseudocódigo
+## 3 -Pseudocódigo<a name="30"></a>
 
 #### **Practica entregable para  la proxima Clase.**
 
@@ -143,17 +167,17 @@ para (i <- 1; i<=100; i++) {
 ~~~
 
 
-## Definición de datos en pseudocódigo
+## 3.1 - Definición de datos en pseudocódigo<a name="31"></a>
 #### La definición de datos se da por supuesta, sobre todo en las variables sencillas, si se emplea formaciones: pilas, colas, vectores o registros, se pueden definir en la cabecera del algoritmo, y naturalmente cuando empleemos el pseudocódigo para definir estructuras de datos, esta parte la desarrollaremos adecuadamente.
 
 
-## Estructuras de control
+## 3.2 Estructuras de control<a name="32"></a>
 #### En la redacción de pseudocódigo se utiliza tres tipos de estructuras de control: las secuenciales, las selectivas y las iterativas.
 
-## Estructuras secuenciales
+## Estructuras secuenciales<a name="3.4"></a>
 #### Las instrucciones se siguen en una secuencia fija que normalmente viene dada por el número de renglón. Es decir que las instrucciones se ejecutan de arriba hacia abajo.
 
-## Estructuras selectivas
+## 3.5 Estructuras selectivas<a name="3.5"></a>
 #### Las instrucciones selectivas representan instrucciones que pueden o no ejecutarse, según el cumplimiento de una condición.
 
     Si Condicion Entonces
@@ -163,7 +187,7 @@ para (i <- 1; i<=100; i++) {
 #### Diagrama de flujo que muestra el funcionamiento de la instrucción condicional.
 ![](https://upload.wikimedia.org/wikipedia/commons/f/f8/Condicional1.png)
 
-## Selectiva doble (alternativa)
+## 3.6 Selectiva doble (alternativa)<a name="3.6"></a>
 #### La instrucción alternativa realiza una instrucción de dos posibles, según el cumplimiento de una condición.
 
     Si Condicion Entonces
@@ -179,7 +203,7 @@ para (i <- 1; i<=100; i++) {
 
 ##### La condición es una variable booleana o una función reducible a booleana (lógica, Verdadero/Falso). Si esta condición es cierta se ejecuta Instrucciones1, si no es así, entonces se ejecuta
 
-## Selectiva múltiple-Casos
+## 3.7 Selectiva múltiple-Casos<a name="3.7"></a>
 #### Una construcción similar a la anterior (equivalente en algunos casos) es la que se muestra a continuación.
 
     Segun Variable Hacer
@@ -200,9 +224,9 @@ para (i <- 1; i<=100; i++) {
 #### En este caso hay un Indicador es una variable o una función cuyo valor es comparado en cada caso con los valores "Valori", si en algún caso coinciden ambos valores, entonces se ejecutarán las Instruccionesi correspondientes. La sección **en otro caso** es análoga a la sección **si no** del ejemplo anterior.
 
 # 
-# Estructuras iterativas
+## 3.8 Estructuras iterativas<a name="3.8"></a>
 #### Las instrucciones iterativas representan la ejecución de instrucciones en más de una vez.
-## Bucle mientras
+## 3.8.1 Bucle mientras<a name="3.8.1"></a>
 
 #### Artículo principal: Bucle while
 #### El bucle se repite mientras la condición sea cierta, si al llegar por primera vez al bucle mientras la condición es falsa, el cuerpo del bucle no se ejecuta alguna vez.
@@ -217,7 +241,7 @@ para (i <- 1; i<=100; i++) {
     Fin Mientras    
 
 
-## Bucle repetir
+## 3.8.2 Bucle repetir<a name="3.8.2"></a>
 #### Existen otras variantes que se derivan a partir de la anterior. La estructura de control repetir se utiliza cuando es necesario que el cuerpo del bucle se ejecuten al menos una vez y hasta que se cumpla la condición:
 
     Repetir 
@@ -233,7 +257,7 @@ para (i <- 1; i<=100; i++) {
     Fin Mientras    
 
 
-## Bucle para
+## 3.8.3 Bucle para<a name="3.8.3"></a>
 ###### Artículo principal: Bucle for
 #### Una estructura de control muy común es el ciclo FOR, la cual se usa cuando se desea iterar un número conocido de veces, empleando como índice una variable que se incrementa (o decrementa):
 
@@ -242,7 +266,7 @@ para (i <- 1; i<=100; i++) {
     Fin Para
 
 
-## Bucle para cada
+## 3.8.4 Bucle para cada<a name="3.8.4"></a>
 #### Por último, también es común usar la estructura de control para cada. Esta sentencia se usa cuando se tiene una lista o un conjunto **L** y se quiere iterar por cada uno de sus elementos:
 
     Para Cada x en l Hacer
@@ -250,7 +274,7 @@ para (i <- 1; i<=100; i++) {
     Fin Para Cada
 
 
-# Funciones y procedimientos
+# 4 - Funciones y procedimientos<a name="4.0"></a>
 #### Muchas personas prefieren distinguir entre funciones y procedimientos. Una función, al igual que una función matemática, recibe uno o varios valores de entrada y regresa una salida mientras que un procedimiento recibe una entrada y no genera alguna salida aunque en algún caso podría devolver resultados a través de sus parámetros de entrada si estos se han declarado por referencia (ver formas de pasar argumentos a una función o procedimiento).
 
 #### En ambos casos es necesario dejar en claro cuáles son las entradas para el algoritmo, esto se hace comúnmente colocando estos valores entre paréntesis al principio o bien declarándolo explícitamente con un enunciado. En el caso de las funciones, es necesario colocar una palabra como regresar o devolver para indicar cuál es la salida generada por el algoritmo. Por ejemplo, el pseudocódigo de una función que permite calcular **a** Elevado a la **n** a elevado a potencia **n**.
