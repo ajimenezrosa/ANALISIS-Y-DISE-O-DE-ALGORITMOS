@@ -27,6 +27,9 @@
 ##### [3.8.4 Bucle para cada](#3.8.4)
 #### [4 Funciones y procedimientos](#4.0)
 
+#### [5 Tipos de algoritmos](#tipos)
+
+
 
 #
 ## Introducción<a name="Introduccion"></a>
@@ -280,8 +283,41 @@ para (i <- 1; i<=100; i++) {
 #### En ambos casos es necesario dejar en claro cuáles son las entradas para el algoritmo, esto se hace comúnmente colocando estos valores entre paréntesis al principio o bien declarándolo explícitamente con un enunciado. En el caso de las funciones, es necesario colocar una palabra como regresar o devolver para indicar cuál es la salida generada por el algoritmo. Por ejemplo, el pseudocódigo de una función que permite calcular **a** Elevado a la **n** a elevado a potencia **n**.
 
 
+# 
+
+## 5 Tipos de algoritmos y ejemplos
+#### Existen diversas clasificaciones de algoritmos, en función de diferentes criterios. Según su sistema de signos (cómo describen los pasos a seguir), se distingue entre algoritmos cuantitativos y cualitativos, si lo hacen a través de cálculos matemáticos o secuencias lógicas. Asimismo, si requieren o no el empleo de un ordenador para su resolución, se clasifican en computacionales y no computacionales.
+
+#### Pero, si nos fijamos en su función (qué hace) y su estrategia para llegar a la solución (cómo lo hace), encontramos muchos más tipos de algoritmos. Destacamos los siguientes cinco tipos de algoritmos informáticos:
+
+![](https://profile.es/wp-content/media/infografia-tipos-de-algotirmos.jpg.webp)
 
 
+# 
+## Algoritmos de búsqueda
+#### Los algoritmos de búsqueda localizan uno o varios elementos que presenten una serie de propiedades dentro de una estructura de datos.
+
+#### Ejemplos de algoritmos de búsqueda
+#### Existen diversos tipos de búsquedas, entre las que sobresalen: 
+
+#### **Búsqueda secuencial**. En la que se compara el elemento a localizar con cada elemento del conjunto hasta encontrarlo o hasta que hayamos comparado todos.
+#### **Búsqueda binaria**. En un conjunto de elementos ordenados, hace una comparación con el elemento ubicado en el medio y, si no son iguales, continúa la búsqueda en la mitad donde puede estar. Y así sucesivamente en intervalos cada vez más pequeños de elementos.
+#
+## Algoritmos de ordenamiento
+#### Reorganizan los elementos de un listado según una relación de orden. Las más habituales son el orden numérico y el orden lexicográfico. Un orden eficiente optimiza el uso de algoritmos como los de búsqueda y facilitan la consecución de resultados legibles por personas y no solo máquinas.
+
+###### Ejemplos de algoritmos de ordenamiento
+
+## Algunos algoritmos de ordenamiento son:
+
+#### **Ordenamiento de burbuja**. Compara cada elemento de la lista a ordenar con el siguiente e intercambia su posición si no están en el orden adecuado. Se revisa varias veces toda la lista hasta que no se necesiten más intercambios.
+#### **Ordenamiento por selección**. Vamos colocando el elemento más pequeño disponible en cada una de las posiciones de la lista de forma consecutiva.
+#### **Ordenamiento rápido**. Elegimos un elemento del conjunto (pivote) y reubicamos el resto a cada uno de sus lados, en función de si son mayores o menores que el elemento que estamos tomando como referencia. Repetimos el procedimiento en cada subconjunto.
+
+# 
+[](https://youtu.be/kPRA0W1kECg?t=132)
 
 
+[![Alt text](https://media-exp1.licdn.com/dms/image/C5612AQGNzar_QlAhWw/article-cover_image-shrink_720_1280/0/1582236773808?e=2147483647&v=beta&t=WLqEG6IPFI3U9RG5gtYx9DrCzRgHXUiWT3jiG9xwJcU)](https://youtu.be/kPRA0W1kECg?t=132)
+#
 
