@@ -321,3 +321,36 @@ para (i <- 1; i<=100; i++) {
 [![Alt text](https://media-exp1.licdn.com/dms/image/C5612AQGNzar_QlAhWw/article-cover_image-shrink_720_1280/0/1582236773808?e=2147483647&v=beta&t=WLqEG6IPFI3U9RG5gtYx9DrCzRgHXUiWT3jiG9xwJcU)](https://youtu.be/kPRA0W1kECg?t=132)
 #
 
+## Algoritmos voraces
+#### Los algoritmos voraces consisten en una estrategia de búsqueda que sigue una heurística en la que se elige la mejor opción óptima en cada paso local con el objetivo de llegar a una solución general óptima. Es decir, en cada paso del proceso escogen el mejor elemento (elemento prometedor) y comprueban que pueda formar parte de una solución global factible. Normalmente se utilizan para resolver problemas de optimización.
+
+## Ejemplos de algoritmos voraces
+#### En ocasiones, estos algoritmos no encuentran la solución global óptima, ya que al tomar una decisión solo tienen en cuenta la información de las decisiones que han tomado hasta el momento y no las futuras que puede adoptar. Algunos casos en los que los algoritmos voraces alcanzan soluciones óptimas son:
+
+- **Problema de la mochila fraccional (KP)**. Disponemos de una colección de objetos (cada uno de ellos con un valor y un peso asociados) y debemos determinar cuáles colocar en la mochila para lograr transportar el valor máximo sin superar el peso que puede soportar. 
+- **Algoritmo de Dijkstra**. Utilizado para determinar el camino más corto desde un vértice origen hasta los demás vértices de un grafo, que tiene pesos en cada arista.
+- **Codificación Huffman**. Método de compresión de datos sin perder información, que analiza la frecuencia de aparición de caracteres de un mensaje y les asigna un código de longitud variable. Cuanto mayor sea la frecuencia le corresponderá un código más corto.
+## Programación dinámica
+#### La **programación dinámica** es un método de resolución de problemas en el que dividimos un problema complejo en subproblemas y calculamos y almacenamos sus soluciones, para que no haga falta volver a calcularlas más adelante para llegar a la solución del problema. La programación dinámica reduce el tiempo de ejecución de un algoritmo al **optimizar la recursión**.
+
+#### Eso sí, para poder aplicarse a un problema, éste debe tener **subestructuras óptimas** y **subproblemas superpuestos**. Es decir, que en él se puedan usar soluciones óptimas de subproblemas para encontrar la solución óptima del problema en su conjunto y que el problema se pueda dividir en subproblemas que se reutilizan para ofrecer el resultado global.
+
+## Usos de programación dinámica
+#### Algunos casos en los que se utiliza son:
+
+- **La serie de Fibonacci**. Sucesión de números que comienza con “0” y “1” y, a partir de ellos, cada número es resultado de la suma de los dos que le preceden. La relación de recurrencia la define. 
+- **Problema de la mochila**.
+#
+## Algoritmos probabilísticos
+#### Es una técnica que usa una fuente de aleatoriedad como parte de su lógica. Mediante un **muestreo aleatorio de la entrada** llega a una solución que puede no ser totalmente óptima, pero que es adecuada para el problema planteado.
+
+#### Se utiliza en situaciones con **limitaciones de tiempo o memoria** y cuando se puede aceptar una buena solución de media, ya que a partir de los mismos datos se pueden obtener soluciones diferentes y algunas erróneas. Para que sea más probable ofrecer una solución correcta, se repite el algoritmo varias veces con diferentes submuestras aleatorias y se comparan los resultados. 
+
+## Tipos de algoritmos probabilísticos
+##### Existen dos tipos principales de algoritmos probabilísticos:
+
+- **Algoritmo de Montecarlo**. Dependiendo de la entrada, hay una pequeña probabilidad de que no acierte o no llegue a una solución. Se puede reducir la probabilidad de error aumentando el tiempo de cálculo.
+- **Algoritmo de Las Vegas**. Se ejecuta en un periodo de tiempo concreto. Si encuentra una solución en ese tiempo ésta será correcta, pero es posible que el tiempo se agote y no encuentre ninguna solución.
+ #
+ [![Alt text](https://raw.githubusercontent.com/xergioalex/analysisOfSortAlgorithms/master/media/fastestAlgorithms_M1.png)](https://youtu.be/KHyzPoyaD3A)
+#
