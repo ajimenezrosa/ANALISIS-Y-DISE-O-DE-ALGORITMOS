@@ -29,7 +29,7 @@
 
 #### [5 Tipos de algoritmos](#tipos)
 
-
+#### [6 -Algoritmo Montecarlo Explicacion](#vidoesYt)
 
 #
 ## Introducción<a name="Introduccion"></a>
@@ -356,7 +356,7 @@ para (i <- 1; i<=100; i++) {
 #
 
 
-## Algoritmo Montecarlo Explicacion
+## Algoritmo Montecarlo Explicacion<a name="vidoesYt"></a>
 [¿En qué consiste el Método Montecarlo?](https://www.youtube.com/watch?v=WJjDr67frtM)
 # 
 [Algoritmos Probabilísticos - Integración MonteCarlo](https://www.youtube.com/watch?v=PleuoQRyCCo)
