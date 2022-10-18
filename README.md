@@ -29,7 +29,9 @@
 
 #### [5 Tipos de algoritmos](#tipos)
 
-#### [6 -Algoritmo Montecarlo Explicacion](#vidoesYt)
+#### [6.2 - Algoritmo Montecarlo Explicacion](#vidoesYt)
+
+#### [6.2 -Algorimo Las Vegas](#AlgorimoLasvegas)
 
 #
 ## Introducción<a name="Introduccion"></a>
@@ -365,7 +367,7 @@ para (i <- 1; i<=100; i++) {
 #
 
 
-## Algorimo Las Vegas
+## Algorimo Las Vegas<a name="AlgorimoLasvegas"></a>
 #
 
 [Algoritmos Probabilísticos - Algoritmos Las Vegas (N Reinas)](https://www.youtube.com/watch?v=pzLToqsWajw)
