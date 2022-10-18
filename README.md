@@ -365,5 +365,12 @@ para (i <- 1; i<=100; i++) {
 #
 
 
+## Algorimo Las Vegas
+#
 
+[Algoritmos Probabilísticos - Algoritmos Las Vegas (N Reinas)](https://www.youtube.com/watch?v=pzLToqsWajw)
+#
+
+[Clase 8-3 Simulación computacional. Algoritmos probabilisticos: Las vegas tipo 1](https://www.youtube.com/watch?v=eCVspQ2JSLQ)
+#
 
