@@ -354,3 +354,16 @@ para (i <- 1; i<=100; i++) {
  #
  [![Alt text](https://raw.githubusercontent.com/xergioalex/analysisOfSortAlgorithms/master/media/fastestAlgorithms_M1.png)](https://youtu.be/KHyzPoyaD3A)
 #
+
+
+## Algoritmo Montecarlo Explicacion
+[¿En qué consiste el Método Montecarlo?](https://www.youtube.com/watch?v=WJjDr67frtM)
+# 
+[Algoritmos Probabilísticos - Integración MonteCarlo](https://www.youtube.com/watch?v=PleuoQRyCCo)
+#
+[Método de Montecarlo y solver para resolver el problema del vendedor de periódicos. La Cartilla](https://www.youtube.com/watch?v=m_V4kXOfMxM)
+#
+
+
+
+
