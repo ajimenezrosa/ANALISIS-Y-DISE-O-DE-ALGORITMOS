@@ -29,7 +29,9 @@
 
 #### [5 Tipos de algoritmos](#tipos)
 
+#### [6.2 - Algoritmo Montecarlo Explicacion](#vidoesYt)
 
+#### [6.2 -Algorimo Las Vegas](#AlgorimoLasvegas)
 
 #
 ## Introducción<a name="Introduccion"></a>
@@ -356,6 +358,7 @@ para (i <- 1; i<=100; i++) {
 #
 
 
+<<<<<<< HEAD
 
 
 
@@ -401,3 +404,23 @@ para (i <- 1; i<=100; i++) {
 13	0.493901457	55	60	55	5	 $42,000 	 $77,000 	 $250 	 $35,250 
 14	0.99754842	100	60	60	0	 $42,000 	 $84,000 	 $-   	 $42,000 
 15	0.076062763	10	60	10	50	 $42,000 	 $14,000 	 $2,500 	 $(25,500) -->
+=======
+## Algoritmo Montecarlo Explicacion<a name="vidoesYt"></a>
+[¿En qué consiste el Método Montecarlo?](https://www.youtube.com/watch?v=WJjDr67frtM)
+# 
+[Algoritmos Probabilísticos - Integración MonteCarlo](https://www.youtube.com/watch?v=PleuoQRyCCo)
+#
+[Método de Montecarlo y solver para resolver el problema del vendedor de periódicos. La Cartilla](https://www.youtube.com/watch?v=m_V4kXOfMxM)
+#
+
+
+## Algorimo Las Vegas<a name="AlgorimoLasvegas"></a>
+#
+
+[Algoritmos Probabilísticos - Algoritmos Las Vegas (N Reinas)](https://www.youtube.com/watch?v=pzLToqsWajw)
+#
+
+[Clase 8-3 Simulación computacional. Algoritmos probabilisticos: Las vegas tipo 1](https://www.youtube.com/watch?v=eCVspQ2JSLQ)
+#
+
+>>>>>>> 142b3fb73640b3e816170269bebc5b8f9d77bae5
