@@ -1,0 +1,68 @@
+
+t1
+ 1 Existen diversas clasificaciones de algoritmos, en función de diferentes criterios
+Verdadero  **
+Falso
+
+t2
+2 Los algoritmos de búsqueda localizan uno o varios elementos que presenten una serie de propiedades dentro de una estructura de datos.
+Verdadero **
+Falso
+
+
+t 6
+3 Son algoritmos de búsqueda: 
+Búsqueda analogica
+Búsqueda secuencial **
+Búsqueda Indexada
+Búsqueda binaria **
+
+
+T 7
+4 Reorganizan los elementos de un listado según una relación de orden 
+Algoritmos de ordenamiento **
+Algoritmos de Busqueda
+Algoritmos de Voraces
+Algoritmos de Secuenciales
+
+
+T 10
+5 Algunos algoritmos de ordenamiento son: 
+
+Algoritmos voraces
+Ordenamiento de burbuja **
+Ordenamiento secuencial 
+Ordenamiento por selección. **
+Ordenamiento rápido. **
+Ordenamiento binaria 
+Ordenamiento analogico
+
+T11
+6 consisten en una estrategia de búsqueda que sigue una heurística en la que se elige la mejor opción óptima en cada paso local con el objetivo de llegar a una solución general óptima
+Algoritmos voraces **
+Ordenamiento de burbuja 
+Ordenamiento secuencial 
+Ordenamiento por selección. 
+Ordenamiento rápido. 
+Ordenamiento binaria 
+Ordenamiento analogico
+
+
+t12
+7 Algoritmos probabilísticos Es una técnica que usa una fuente de aleatoriedad como parte de su lógica
+Verdadero
+Falso
+
+
+t 14
+8 Tipos de algoritmos probabilísticos:
+Algoritmos voraces
+Algoritmo de Las Vegas.  **
+Algoritmos voraces
+Algoritmo de Montecarlo. **
+Algoritmos de ordenamiento 
+Algoritmos de Busqueda
+Algoritmos de Voraces
+Algoritmos de Secuenciales
+
+
