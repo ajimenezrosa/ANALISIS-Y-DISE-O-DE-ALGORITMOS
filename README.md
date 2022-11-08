@@ -33,6 +33,10 @@
 
 #### [6.2 -Algorimo Las Vegas](#AlgorimoLasvegas)
 
+
+#### [ Estructuras del algoritmos de Ventas de peridicos, **[Algoritmo Montecarlos]**](#ventaperiodicos)
+
+
 #
 ## Introducción<a name="Introduccion"></a>
 
@@ -358,9 +362,7 @@ para (i <- 1; i<=100; i++) {
 #
 
 
-<<<<<<< HEAD
-
-
+# Estructuras del algoritmos de Ventas de peridicos, **[Algoritmo Montecarlos]** <a name="ventaperiodicos"></a>
 
 ## Distribución de demanda	
 |Demanda (Und)  |	P(x)    |
@@ -422,4 +424,4 @@ para (i <- 1; i<=100; i++) {
 [Clase 8-3 Simulación computacional. Algoritmos probabilisticos: Las vegas tipo 1](https://www.youtube.com/watch?v=eCVspQ2JSLQ)
 #
 
->>>>>>> 142b3fb73640b3e816170269bebc5b8f9d77bae5
+
