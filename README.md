@@ -386,8 +386,7 @@ para (i <- 1; i<=100; i++) {
 
 
 
-|Día 	|Aleatorio	|Demanda	|Q compra	|Cant. Periódicos vendidos	|Cant. Periódicos no vendidos	|Costo total compra	|Ingresos por ventas regulares	|Ingresos por salvamento	|Utilidad del día|
-
+|Día|Aleatorio|Demanda|Q_compra	|Cant.Periódicos_vendidos|Cant.Periódicos_n_vendidos|Costo_total_compra|Ingresos_por_ventas_regulares|Ingresos_por_salvamento|Utilidad_del_día|
 |-----|-----------|----------|----------|-------------|-------------------|----------------------|---------------------|--------------|-----------------|
 |1	 |0.104514191	|25	|60	|25	|35	 |$42,000 	 |$35,000 	 |$1,750 	 |$(5,250)|
 |2	|0.69544312	|70	|60	|60	|0	 |$42,000 	 |$84,000 	 |$-   	 |$42,000| 
@@ -404,7 +403,7 @@ para (i <- 1; i<=100; i++) {
 13	0.493901457	55	60	55	5	 $42,000 	 $77,000 	 $250 	 $35,250 
 14	0.99754842	100	60	60	0	 $42,000 	 $84,000 	 $-   	 $42,000 
 15	0.076062763	10	60	10	50	 $42,000 	 $14,000 	 $2,500 	 $(25,500) -->
-=======
+
 ## Algoritmo Montecarlo Explicacion<a name="vidoesYt"></a>
 [¿En qué consiste el Método Montecarlo?](https://www.youtube.com/watch?v=WJjDr67frtM)
 # 
