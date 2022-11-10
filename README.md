@@ -35,6 +35,7 @@
 
 
 #### [ Estructuras del algoritmos de Ventas de peridicos, **[Algoritmo Montecarlos]**](#ventaperiodicos)
+#### [Practica Estudiante KARLA KARINA SANCHEZ](#practicakarlaKarina)
 
 
 #
@@ -426,7 +427,7 @@ para (i <- 1; i<=100; i++) {
 
 
 
-# Practica
+# Practica Estudiante KARLA KARINA SANCHEZ<a name="practicakarlaKarina"></a>
 ~~~python
 import random
 import matplotlib.pyplot as plt
