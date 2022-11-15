@@ -31,11 +31,13 @@
 
 #### [6.2 - Algoritmo Montecarlo Explicacion](#vidoesYt)
 
-#### [6.2 -Algorimo Las Vegas](#AlgorimoLasvegas)
 
 
 #### [ Estructuras del algoritmos de Ventas de peridicos, **[Algoritmo Montecarlos]**](#ventaperiodicos)
 #### [Practica Estudiante KARLA KARINA SANCHEZ](#practicakarlaKarina)
+#
+#### [6.2 -Algorimo Las Vegas](#AlgorimoLasvegas)
+#### [Tarea para el proximo Martes 22 de Noviembre 2022](#tarea20221122)
 
 
 #
@@ -416,8 +418,6 @@ para (i <- 1; i<=100; i++) {
 #
 
 
-## Algorimo Las Vegas<a name="AlgorimoLasvegas"></a>
-#
 
 [Algoritmos Probabilísticos - Algoritmos Las Vegas (N Reinas)](https://www.youtube.com/watch?v=pzLToqsWajw)
 #
@@ -544,4 +544,99 @@ if __name__ == "__main__":
     plt.ylabel("Promedio")
     plt.show()
 ~~~
+
+
+## Algorimo Las Vegas<a name="AlgorimoLasvegas"></a>
+#
+#### Un algoritmo tipo Las Vegas es un algoritmo de computación de carácter aleatorio (random) que no es aproximado: es decir, da el resultado correcto o informa que ha fallado
+#
+## Características
+#### Un algoritmo de este tipo no especula con el resultado sino que especula con los recursos a utilizar en su computación.
+#
+#### De la misma manera que el método de Montecarlo, la probabilidad de encontrar una solución correcta aumenta con el tiempo empleado en obtenerla y el número de muestreos utilizado. Un algoritmo tipo Las Vegas se utiliza sobre todo en problemas NP-completos, que serían intratables con métodos determinísticos.
+#
+#### Existe un riesgo de no encontrar solución debido a que se hacen elecciones de rutas aleatorias que pueden no llevar a ningún sitio. El objetivo es minimizar la probabilidad de no encontrar la solución, tomando decisiones aleatorias con inteligencia, pero minimizando también el tiempo de ejecución al aplicarse sobre el espacio de información aleatoria.
+#
+#### La clase de complejidad de los problemas de decisión de estos algoritmos con ejecución polinómica es ZPP.
+#
+     ZPP=RP*no-RP
+
+#### Su esquema de implementación se parece al de los algoritmos de Montecarlo, pero se diferencian de ellos en que incluyen una variable booleana para saber si se ha encontrado la solución correcta.
+#
+#
+
+
+## Historia
+#### Los algoritmos de Las Vegas fueron introducidos por László Babai en 1979, en el contexto del problema del isomorfismo de grafos , como un dual a los algoritmos de Monte Carlo . [4] Babai [5] introdujo el término "algoritmo de Las Vegas" junto con un ejemplo que involucra lanzamientos de monedas: el algoritmo depende de una serie de lanzamientos de monedas independientes, y existe una pequeña posibilidad de falla (sin resultado). Sin embargo, a diferencia de los algoritmos de Monte Carlo, el algoritmo de Las Vegas puede garantizar la exactitud de cualquier resultado informado.
+
+## Ejemplo
+
+    // Algoritmo de Las Vegasrepetir: k  =  RandInt ( n ) si  A [ k ]  ==  1 , return  k ;
+
+#### Como se mencionó anteriormente, los algoritmos de Las Vegas siempre devuelven resultados correctos. El código anterior ilustra esta propiedad. Una variable k se genera aleatoriamente; después de k se genera, k se usa para indexar la matriz A . Si este índice contiene el valor 1, se devuelve k ; de lo contrario, el algoritmo repite este proceso hasta que encuentra 1. Aunque se garantiza que este algoritmo de Las Vegas encontrará la respuesta correcta, no tiene un tiempo de ejecución fijo; debido a la aleatorización (en la línea 3 del código anterior), es posible que transcurra arbitrariamente mucho tiempo antes de que finalice el algoritmo.
+#
+## Definición
+#
+#### Esta sección proporciona las condiciones que caracterizan que un algoritmo sea del tipo Las Vegas.
+
+#### Un algoritmo A es un algoritmo de Las Vegas para la clase de problema X, si [6]
+
+ - siempre que para una instancia de problema dada x∈X devuelve una solución s, se garantiza que s es una solución válida de x
+ - en cada instancia dada x, el tiempo de ejecución de A es una variable aleatoria RT A, x
+#### Hay tres nociones de completitud para los algoritmos de Las Vegas:
+
+ - Se puede garantizar que los algoritmos completos de Las Vegas resuelvan cada problema solucionable dentro del tiempo de ejecución t max, donde t max es una constante dependiente de la instancia.
+
+## Escenarios de aplicación
+
+#### Los algoritmos de Las Vegas tienen diferentes criterios para la evaluación según el entorno del problema. Estos criterios se dividen en tres categorías con diferentes límites de tiempo, ya que los algoritmos de Las Vegas no tienen una complejidad de tiempo establecida. A continuación, se muestran algunos posibles escenarios de aplicación:
+
+#### Tipo 1: no hay límites de tiempo, lo que significa que el algoritmo se ejecuta hasta que encuentra la solución.
+#### Tipo 2: Hay un límite de tiempo t max para encontrar el resultado.
+
+
+
+#### Tipo 3: la utilidad de una solución está determinada por el tiempo necesario para encontrar la solución.
+
+#### Tenga en cuenta que el tipo 1 y el tipo 2 son casos especiales del tipo 3.
+
+#### Para el Tipo 1, donde no hay límite de tiempo, el tiempo de ejecución promedio puede representar el comportamiento del tiempo de ejecución. Este no es el mismo caso para el tipo 2.
+
+
+## Algoritmo óptimo de Las Vegas
+#
+#### Para que un algoritmo de Las Vegas sea óptimo, se debe minimizar el tiempo de ejecución esperado. Esto se puede hacer mediante:
+
+- El algoritmo de Las Vegas A ( x ) se ejecuta repetidamente durante algunos pasos del número t 1 . Si A ( x ) se detiene durante el tiempo de ejecución, entonces A ( x ) está terminado; de lo contrario, repita el proceso desde el principio durante otros t 2 pasos, y así sucesivamente.
+- Diseñar una estrategia que sea óptima entre todas las estrategias para A ( x ), dada la información completa sobre la distribución de T A ( x ).
+#### La existencia de la estrategia óptima podría ser una observación teórica fascinante. Sin embargo, no es práctico en la vida real porque no es fácil encontrar la información de distribución de T A ( x ). Además, no tiene sentido ejecutar el experimento repetidamente para obtener la información sobre la distribución, ya que la mayoría de las veces, la respuesta solo se necesita una vez para cualquier x . [10]
+
+## Relación con los algoritmos de Monte Carlo
+#### Los algoritmos de Las Vegas se pueden contrastar con los algoritmos de Monte Carlo , en los que los recursos utilizados están limitados pero la respuesta puede ser incorrecta con una cierta probabilidad (normalmente pequeña) . Mediante una aplicación de la desigualdad de Markov , un algoritmo de Las Vegas se puede convertir en un algoritmo de Monte Carlo ejecutándolo durante un tiempo establecido y generando una respuesta aleatoria cuando no termina. Mediante una aplicación de la desigualdad de Markov , podemos establecer el límite de la probabilidad de que el algoritmo de Las Vegas supere el límite fijo.
+
+#
+|	                  |Tiempo de ejecución|	Exactitud |
+|--------------------|-------------------|------------------------|
+|Algoritmo de Las Vegas	|probabilístico	|cierto|
+|Algoritmo de Monte Carlo	|cierto|	probabilístico|
+
+#### Si está disponible una forma determinista de probar la corrección, entonces es posible convertir un algoritmo de Monte Carlo en un algoritmo de Las Vegas. Sin embargo, es difícil convertir un algoritmo de Monte Carlo en un algoritmo de Las Vegas sin una forma de probar el algoritmo. Por otro lado, cambiar un algoritmo de Las Vegas a un algoritmo de Monte Carlo es fácil. Esto se puede hacer ejecutando un algoritmo de Las Vegas durante un período de tiempo específico dado por el parámetro de confianza. Si el algoritmo encuentra la solución dentro del tiempo, entonces es un éxito y si no, la salida simplemente puede ser "lo siento".
+
+#
+
+
+# Tarea para el proximo Martes 22 de Noviembre 2022<a name="tarea20221122"></a>
+## Algoritmo de Atlantic City
+## Aleatoriedad
+
+
+
+
+
+#
+# Link Algoritmos Las Vegas
+#
+[Algoritmos Probabilísticos - Algoritmos Las Vegas (N Reinas)](https://www.youtube.com/watch?v=pzLToqsWajw)
+#
+[]https://www.youtube.com/watch?v=IhTF92yppqE
 
